@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Building, Home, Wrench, Layers } from "lucide-react";
 
@@ -25,7 +24,7 @@ const Services = () => {
     {
       icon: Layers,
       title: "Projetos Completos",
-      description: "Do planejamento à execução, oferecemos soluções completas para seus projetos em estruturas metálicas.",
+      description: "Planejamento inteligente, visualização 3D e execução precisa: oferecemos soluções completas em estruturas metálicas para qualquer tipo de projeto.",
       features: ["Consultoria técnica", "Projeto personalizado", "Execução completa", "Garantia estendida"]
     }
   ];

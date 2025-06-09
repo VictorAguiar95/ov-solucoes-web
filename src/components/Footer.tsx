@@ -1,4 +1,3 @@
-
 import { Mail, Instagram, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
@@ -17,7 +16,7 @@ const Footer = () => {
             />
             <p className="text-gray-300 mb-4 leading-relaxed">
               Especialistas em estruturas metálicas, coberturas sob medida e esquadrias de alumínio. 
-              Qualidade e confiança há mais de 15 anos.
+              Qualidade e confiança há mais de 7 anos.
             </p>
             <div className="text-sm text-gray-400">
               <p className="font-semibold text-white mb-1">CNPJ: 30.711.649/0001-81</p>
@@ -192,7 +191,7 @@ const Footer = () => {
               <span>•</span>
               <span>Atendimento 24h</span>
               <span>•</span>
-              <span>15+ Anos de Experiência</span>
+              <span>7 Anos de Experiência</span>
             </div>
           </div>
         </div>

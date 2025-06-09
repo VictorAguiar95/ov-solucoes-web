@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Quote } from "lucide-react";
 
@@ -83,7 +82,7 @@ const Testimonials = () => {
             <div className="text-accent">Projetos Concluídos</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-primary mb-2">15+</div>
+            <div className="text-4xl font-bold text-primary mb-2">7</div>
             <div className="text-accent">Anos de Experiência</div>
           </div>
           <div className="text-center">
