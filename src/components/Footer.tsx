@@ -11,9 +11,9 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <img 
-              src="/lovable-uploads/fa5b85b1-b9b6-4958-a23d-fd88d115c00b.png" 
+              src="/lovable-uploads/e63f0e80-f28a-48f7-bae7-a8984d1f6b8c.png" 
               alt="O.V Soluções" 
-              className="h-12 w-auto mb-4 filter brightness-0 invert"
+              className="h-12 w-auto mb-4"
             />
             <p className="text-gray-300 mb-4 leading-relaxed">
               Especialistas em estruturas metálicas, coberturas sob medida e esquadrias de alumínio. 
