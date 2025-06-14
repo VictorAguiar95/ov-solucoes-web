@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -26,6 +27,13 @@ const Gallery = () => {
     "/lovable-uploads/f0daed5b-5315-4dc1-a472-3f105c0b5e39.png",
     "/lovable-uploads/843c1ac2-0ad3-43bd-8749-d51ea038c989.png",
     "/lovable-uploads/21a2556f-e55b-4202-8b3d-0ec7c914a2b7.png"
+  ];
+
+  // Imagens da garagem residencial
+  const garagemResidencialImages = [
+    "/lovable-uploads/558708a9-766a-4a22-88e0-04dcdca66b99.png",
+    "/lovable-uploads/6ad69e4e-50f3-4380-8f7e-7426225926e8.png",
+    "/lovable-uploads/f1f83af6-7174-4486-b6d7-22a3d27a3703.png"
   ];
   
   const projects = [
@@ -64,8 +72,9 @@ const Gallery = () => {
       id: 5,
       title: "Garagem Residencial",
       category: "residencial",
-      image: "https://images.unsplash.com/photo-1460574283810-2aab119d8511?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "Cobertura metálica para garagem com acabamento em telha galvanizada"
+      images: garagemResidencialImages,
+      description: "Cobertura em policarbonato compacto fumê. Estrutura 100% em alumínio",
+      isCarousel: true
     },
     {
       id: 6,
