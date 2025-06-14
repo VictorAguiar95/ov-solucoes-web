@@ -6,7 +6,7 @@ import { URL, fileURLToPath } from "url";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/ov-solucoes-web/",
+  base: "/",
 
   server: {
     host: "::",
