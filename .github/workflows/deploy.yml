@@ -2,11 +2,14 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ] 
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
   build-and-deploy:
+    permissions:
+      contents: write
+    
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 🛎️
