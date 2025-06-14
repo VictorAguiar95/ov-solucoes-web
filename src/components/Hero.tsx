@@ -87,8 +87,8 @@ const Hero = () => {
           <div className="relative lg:ml-8">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-                alt="Estrutura metálica moderna"
+                src="/lovable-uploads/48ad906c-4f75-4f27-8af6-fbafce934fa9.png"
+                alt="Edifício moderno com estruturas metálicas e esquadrias de alumínio"
                 className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-secondary-500/20 to-transparent rounded-2xl"></div>
