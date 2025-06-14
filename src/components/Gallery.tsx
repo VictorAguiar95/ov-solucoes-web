@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -16,13 +15,20 @@ const Gallery = () => {
     "/lovable-uploads/a07a04d8-c71d-4101-b2b2-e8f67a5deff9.png"
   ];
   
+  // Imagens da cobertura automatizada
+  const coberturaAutomatizadaImages = [
+    "/lovable-uploads/ae482c82-d705-424a-b559-0c8c81d7e56e.png",
+    "/lovable-uploads/fb6ec1b1-cdb1-449c-926e-0a03e3d431be.png"
+  ];
+  
   const projects = [
     {
       id: 1,
-      title: "Galpão Industrial - Zona Sul",
-      category: "industrial",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "Estrutura metálica completa para galpão industrial de 1.200m²"
+      title: "Cobertura Automatizada Retrátil",
+      category: "residencial",
+      images: coberturaAutomatizadaImages,
+      description: "Cobertura automatizada retrátil em vidro refletivo 4+4. Estrutura mista entre aço galvanizado e alumínio.",
+      isCarousel: true
     },
     {
       id: 2,
