@@ -2,10 +2,19 @@
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Eye } from "lucide-react";
+import { Eye, ChevronLeft, ChevronRight } from "lucide-react";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 const Gallery = () => {
   const [filter, setFilter] = useState("todos");
+  
+  // Imagens do projeto Grand Tolle
+  const grandTolleImages = [
+    "/lovable-uploads/809d68e8-1b66-43cc-b9a3-c69cc1d01346.png",
+    "/lovable-uploads/30086758-919e-4d6e-a19b-20fe15d829ea.png",
+    "/lovable-uploads/676b389e-652d-4763-b3ca-cd9fa8edd095.png",
+    "/lovable-uploads/a07a04d8-c71d-4101-b2b2-e8f67a5deff9.png"
+  ];
   
   const projects = [
     {
@@ -17,10 +26,11 @@ const Gallery = () => {
     },
     {
       id: 2,
-      title: "Cobertura Residencial - Morumbi",
+      title: "Residencial Grand Tolle - Construtora RFM",
       category: "residencial",
-      image: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "Cobertura metálica moderna para área de lazer residencial"
+      images: grandTolleImages,
+      description: "São 25 toneladas foram 243 máxim-ar de banheiro - 216 Janelas integrada dormitórios - 108 Portas integrada - 108 Porta de correr quatro folhas - 108 Janela duas folhas e 108 portas veneziana ventilada.",
+      isCarousel: true
     },
     {
       id: 3,
@@ -98,20 +108,42 @@ const Gallery = () => {
           {filteredProjects.map((project) => (
             <Card key={project.id} className="group overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-0">
               <div className="relative overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <Eye className="h-8 w-8 text-white" />
-                </div>
+                {project.isCarousel ? (
+                  <div className="h-64 relative">
+                    <Carousel className="w-full h-full">
+                      <CarouselContent>
+                        {project.images?.map((image, index) => (
+                          <CarouselItem key={index}>
+                            <img
+                              src={image}
+                              alt={`${project.title} - Imagem ${index + 1}`}
+                              className="w-full h-64 object-cover"
+                            />
+                          </CarouselItem>
+                        ))}
+                      </CarouselContent>
+                      <CarouselPrevious className="left-2" />
+                      <CarouselNext className="right-2" />
+                    </Carousel>
+                  </div>
+                ) : (
+                  <>
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <Eye className="h-8 w-8 text-white" />
+                    </div>
+                  </>
+                )}
                 <Badge 
                   className={`absolute top-4 left-4 ${
                     project.category === 'residencial' ? 'bg-blue-500' :
                     project.category === 'comercial' ? 'bg-green-500' :
                     'bg-purple-500'
-                  } text-white`}
+                  } text-white z-10`}
                 >
                   {project.category.charAt(0).toUpperCase() + project.category.slice(1)}
                 </Badge>
@@ -120,7 +152,7 @@ const Gallery = () => {
                 <h3 className="text-xl font-semibold text-secondary-500 mb-3">
                   {project.title}
                 </h3>
-                <p className="text-accent leading-relaxed">
+                <p className="text-accent leading-relaxed text-sm">
                   {project.description}
                 </p>
               </CardContent>
