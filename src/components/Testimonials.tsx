@@ -14,10 +14,10 @@ const Testimonials = () => {
     {
       id: 2,
       name: "Marina Silva",
-      role: "Gerente - Comercial",
+      role: "Proprietário – Residencial",
       content: "Profissionais muito competentes. Fizeram todo o projeto estrutural do nosso galpão e supervisionaram a obra do início ao fim. Resultado superou nossas expectativas.",
       rating: 5,
-      project: "Galpão comercial 800m²"
+      project: "Cobertura em vidro refletivo para área gourmet"
     },
     {
       id: 3,
