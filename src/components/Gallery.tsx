@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -42,6 +41,13 @@ const Gallery = () => {
     "/lovable-uploads/5e79089c-4a10-4457-818b-26b83114c75d.png",
     "/lovable-uploads/e82ba6ee-828d-46e9-9cd2-b80480635831.png",
     "/lovable-uploads/31f356fc-c8c0-4a98-b311-5bce9ac80c22.png"
+  ];
+
+  // Imagens do Fórum João Mendes Junior
+  const forumJoaoMendesImages = [
+    "/lovable-uploads/843fce20-61cc-4d77-a7ca-f4a21b1b0bbe.png",
+    "/lovable-uploads/071038bf-74bf-4043-aec4-09744acf6355.png",
+    "/lovable-uploads/1bcb3e1c-3eb4-4801-85d1-30cef69fca9e.png"
   ];
   
   const projects = [
@@ -87,10 +93,11 @@ const Gallery = () => {
     },
     {
       id: 6,
-      title: "Mezanino Corporativo",
-      category: "comercial",
-      image: "https://images.unsplash.com/photo-1486718448742-163732cd1544?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "Projeto estrutural para centro comercial"
+      title: "Obra Fórum João Mendes Junior",
+      category: "industrial",
+      images: forumJoaoMendesImages,
+      description: "100 toneladas de alumínio aonde foi feita a substituição das esquadrias. Parceria feita com a Construtora Augusto Velloso",
+      isCarousel: true
     }
   ];
 
