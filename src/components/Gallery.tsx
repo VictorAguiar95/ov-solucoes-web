@@ -35,6 +35,14 @@ const Gallery = () => {
     "/lovable-uploads/6ad69e4e-50f3-4380-8f7e-7426225926e8.png",
     "/lovable-uploads/f1f83af6-7174-4486-b6d7-22a3d27a3703.png"
   ];
+
+  // Imagens da estrutura comercial
+  const estruturaComercialImages = [
+    "/lovable-uploads/b94c0f26-a099-4fc5-a13a-87fe60d71768.png",
+    "/lovable-uploads/5e79089c-4a10-4457-818b-26b83114c75d.png",
+    "/lovable-uploads/e82ba6ee-828d-46e9-9cd2-b80480635831.png",
+    "/lovable-uploads/31f356fc-c8c0-4a98-b311-5bce9ac80c22.png"
+  ];
   
   const projects = [
     {
@@ -63,10 +71,11 @@ const Gallery = () => {
     },
     {
       id: 4,
-      title: "Mezanino Corporativo",
+      title: "Estrutura em Telha Termoacústica",
       category: "comercial",
-      image: "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "Estrutura de mezanino para ampliação de escritório"
+      images: estruturaComercialImages,
+      description: "Projeto em telha termoacústica branca. Estrutura em aço galvanizado pintado com tinta automotiva",
+      isCarousel: true
     },
     {
       id: 5,
@@ -78,7 +87,7 @@ const Gallery = () => {
     },
     {
       id: 6,
-      title: "Estrutura Comercial",
+      title: "Mezanino Corporativo",
       category: "comercial",
       image: "https://images.unsplash.com/photo-1486718448742-163732cd1544?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       description: "Projeto estrutural para centro comercial"
