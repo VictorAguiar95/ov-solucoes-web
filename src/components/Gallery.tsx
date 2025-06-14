@@ -21,6 +21,13 @@ const Gallery = () => {
     "/lovable-uploads/fb6ec1b1-cdb1-449c-926e-0a03e3d431be.png"
   ];
   
+  // Imagens das cortinas rolô
+  const cortinasRoloImages = [
+    "/lovable-uploads/f0daed5b-5315-4dc1-a472-3f105c0b5e39.png",
+    "/lovable-uploads/843c1ac2-0ad3-43bd-8749-d51ea038c989.png",
+    "/lovable-uploads/21a2556f-e55b-4202-8b3d-0ec7c914a2b7.png"
+  ];
+  
   const projects = [
     {
       id: 1,
@@ -40,10 +47,11 @@ const Gallery = () => {
     },
     {
       id: 3,
-      title: "Fachada Comercial - Centro",
+      title: "Cortinas Rolô em Lona Laminado de PVC",
       category: "comercial",
-      image: "https://images.unsplash.com/photo-1496307653780-42ee777d4833?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "Esquadrias de alumínio para fachada de edifício comercial"
+      images: cortinasRoloImages,
+      description: "Cortinas rolô em lona laminado de PVC sobre tecido de poliéster, com aditivos anti‑UV, antifungo e antioxidantes.",
+      isCarousel: true
     },
     {
       id: 4,
