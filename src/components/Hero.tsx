@@ -20,8 +20,8 @@ const Hero = () => {
               <span className="text-primary block">Estruturas Metálicas</span>
             </h1>
             <p className="text-xl text-accent mb-8 leading-relaxed">
-              Especialistas em estruturas metálicas robustas e coberturas sob medida para projetos residenciais e comerciais. 
-              Engenharia de precisão, materiais premium e execução impecável em cada obra.
+              Especialistas em estruturas metálicas sob medida, com durabilidade, precisão e visual limpo.
+              Projetos residenciais e comerciais executados com materiais premium e acabamento impecável.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-12">

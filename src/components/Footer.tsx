@@ -10,11 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <img 
-              src="/lovable-uploads/e63f0e80-f28a-48f7-bae7-a8984d1f6b8c.png" 
-              alt="O.V Soluções" 
-              className="h-12 w-auto mb-4"
-            />
+            <h3 className="text-lg font-semibold mb-4">Quem Somos</h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
               Especialistas em estruturas metálicas e coberturas personalizadas. 
               Novo ciclo de excelência técnica com foco total em soluções estruturais.
@@ -142,8 +138,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
                 <div className="text-gray-300 text-sm">
-                  <p>Grande São Paulo</p>
-                  <p>e Região</p>
+                  <p>Grande São Paulo e Região</p>
                 </div>
               </div>
             </div>

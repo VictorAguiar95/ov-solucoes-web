@@ -201,7 +201,7 @@ const Gallery = () => {
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-primary-500 to-primary-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">
-              Sua Cobertura Pode Estar Aqui!
+              Seu Projeto Pode Estar Aqui!
             </h3>
             <p className="text-primary-100 mb-6 max-w-2xl mx-auto">
               Transforme seu projeto em realidade com nossa expertise técnica em estruturas metálicas. 
