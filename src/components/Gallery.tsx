@@ -42,11 +42,10 @@ const Gallery = () => {
     "/lovable-uploads/31f356fc-c8c0-4a98-b311-5bce9ac80c22.png"
   ];
 
-  // Imagens do Fórum João Mendes Junior
-  const forumJoaoMendesImages = [
-    "/lovable-uploads/843fce20-61cc-4d77-a7ca-f4a21b1b0bbe.png",
-    "/lovable-uploads/071038bf-74bf-4043-aec4-09744acf6355.png",
-    "/lovable-uploads/1bcb3e1c-3eb4-4801-85d1-30cef69fca9e.png"
+  // Imagens da cobertura em aço galvanizado
+  const coberturaAcoGalvanizadoImages = [
+    "/lovable-uploads/127f4455-7e69-4916-afe3-54423e5d17aa.png",
+    "/lovable-uploads/a64deb1b-cbcf-4050-8e71-a3178278e511.png"
   ];
   
   const projects = [
@@ -92,10 +91,10 @@ const Gallery = () => {
     },
     {
       id: 6,
-      title: "Obra Fórum João Mendes Junior",
+      title: "Cobertura em Aço Galvanizado com Telha de Policarbonato Trapezoidal",
       category: "industrial",
-      images: forumJoaoMendesImages,
-      description: "100 toneladas de alumínio aonde foi feita a substituição das esquadrias. Parceria feita com a Construtora Augusto Velloso",
+      images: coberturaAcoGalvanizadoImages,
+      description: "Esta cobertura combina a resistência estrutural do aço galvanizado com a leveza e modernidade das telhas de policarbonato trapezoidal. Ideal para ambientes que exigem alta durabilidade e luminosidade natural, o aço galvanizado garante rigidez e proteção contra corrosão, enquanto o policarbonato permite a entrada de luz com filtro UV, mantendo o ambiente iluminado e protegido.",
       isCarousel: true
     }
   ];
@@ -202,7 +201,7 @@ const Gallery = () => {
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-primary-500 to-primary-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">
-              Sua Estrutura Pode Estar Aqui!
+              Sua Cobertura Pode Estar Aqui!
             </h3>
             <p className="text-primary-100 mb-6 max-w-2xl mx-auto">
               Transforme seu projeto em realidade com nossa expertise técnica em estruturas metálicas. 
