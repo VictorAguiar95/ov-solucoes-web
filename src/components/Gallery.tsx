@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -8,12 +7,11 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 const Gallery = () => {
   const [filter, setFilter] = useState("todos");
   
-  // Imagens do projeto Grand Tolle
-  const grandTolleImages = [
-    "/lovable-uploads/809d68e8-1b66-43cc-b9a3-c69cc1d01346.png",
-    "/lovable-uploads/30086758-919e-4d6e-a19b-20fe15d829ea.png",
-    "/lovable-uploads/676b389e-652d-4763-b3ca-cd9fa8edd095.png",
-    "/lovable-uploads/a07a04d8-c71d-4101-b2b2-e8f67a5deff9.png"
+  // Imagens da estrutura em alumínio com policarbonato verde
+  const estruturaAluminioImages = [
+    "/lovable-uploads/d4ef31d5-89de-4d12-8a19-07a74e4fa382.png",
+    "/lovable-uploads/eaa03cfd-13b4-422b-8545-662d853e18b8.png",
+    "/lovable-uploads/ac9c4de7-10db-456e-934f-5fe2300d53c6.png"
   ];
   
   // Imagens da cobertura automatizada
@@ -62,10 +60,10 @@ const Gallery = () => {
     },
     {
       id: 2,
-      title: "Residencial Grand Tolle - Construtora RFM",
+      title: "Estrutura em Alumínio com Cobertura em Policarbonato Compacto Verde",
       category: "residencial",
-      images: grandTolleImages,
-      description: "Projeto estrutural completo com 25 toneladas de estrutura metálica. Execução de 243 elementos estruturais integrados ao sistema construtivo.",
+      images: estruturaAluminioImages,
+      description: "Projetada para unir estética e resistência, esta estrutura em alumínio recebe uma cobertura em policarbonato compacto na cor verde, proporcionando um visual moderno e proteção completa contra intempéries. O alumínio garante leveza e durabilidade, enquanto o policarbonato compacto oferece alta transparência, proteção UV e resistência a impactos — ideal para áreas externas que exigem sofisticação.",
       isCarousel: true
     },
     {
