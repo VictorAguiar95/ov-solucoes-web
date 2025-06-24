@@ -1,3 +1,4 @@
+
 import { Mail, Instagram, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
@@ -15,18 +16,18 @@ const Footer = () => {
               className="h-12 w-auto mb-4"
             />
             <p className="text-gray-300 mb-4 leading-relaxed">
-              Especialistas em estruturas metálicas, coberturas sob medida e esquadrias de alumínio. 
-              Qualidade e confiança há mais de 7 anos.
+              Especialistas em estruturas metálicas e coberturas personalizadas. 
+              Novo ciclo de excelência técnica com foco total em soluções estruturais.
             </p>
             <div className="text-sm text-gray-400">
-              <p className="font-semibold text-white mb-1">CNPJ: 30.711.649/0001-81</p>
+              <p className="font-semibold text-white mb-1">CNPJ: 61.431.261/0001-50</p>
               <p>Empresa regularizada e certificada</p>
             </div>
           </div>
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Nossos Serviços</h3>
+            <h3 className="text-lg font-semibold mb-4">Nossas Especialidades</h3>
             <ul className="space-y-2 text-gray-300">
               <li>
                 <button 
@@ -41,7 +42,7 @@ const Footer = () => {
                   onClick={() => document.getElementById('servicos')?.scrollIntoView({ behavior: 'smooth' })}
                   className="hover:text-primary transition-colors"
                 >
-                  Coberturas sob Medida
+                  Coberturas Personalizadas
                 </button>
               </li>
               <li>
@@ -49,7 +50,7 @@ const Footer = () => {
                   onClick={() => document.getElementById('servicos')?.scrollIntoView({ behavior: 'smooth' })}
                   className="hover:text-primary transition-colors"
                 >
-                  Esquadrias de Alumínio
+                  Materiais Premium
                 </button>
               </li>
               <li>
@@ -80,7 +81,7 @@ const Footer = () => {
                   onClick={() => document.getElementById('projetos')?.scrollIntoView({ behavior: 'smooth' })}
                   className="hover:text-primary transition-colors"
                 >
-                  Nossos Projetos
+                  Projetos Executados
                 </button>
               </li>
               <li>
@@ -88,7 +89,7 @@ const Footer = () => {
                   onClick={() => document.getElementById('depoimentos')?.scrollIntoView({ behavior: 'smooth' })}
                   className="hover:text-primary transition-colors"
                 >
-                  Depoimentos
+                  Reconhecimento
                 </button>
               </li>
               <li>
@@ -104,7 +105,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contato</h3>
+            <h3 className="text-lg font-semibold mb-4">Contato Técnico</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
@@ -149,7 +150,7 @@ const Footer = () => {
 
             {/* Social Media */}
             <div className="mt-6">
-              <h4 className="text-sm font-semibold mb-3">Siga-nos</h4>
+              <h4 className="text-sm font-semibold mb-3">Conecte-se</h4>
               <div className="flex space-x-3">
                 <a
                   href="https://instagram.com/o.vsolucoes"
@@ -183,15 +184,15 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
               <p>&copy; {currentYear} O.V Soluções em Estruturas Metálicas. Todos os direitos reservados.</p>
-              <p className="mt-1">CNPJ: 30.711.649/0001-81</p>
+              <p className="mt-1">CNPJ: 61.431.261/0001-50 - Novo ciclo de excelência técnica</p>
             </div>
             
             <div className="flex space-x-6 text-sm text-gray-400">
-              <span>Qualidade Garantida</span>
+              <span>Qualidade Industrial</span>
               <span>•</span>
-              <span>Atendimento 24h</span>
+              <span>Suporte Técnico 24h</span>
               <span>•</span>
-              <span>7 Anos de Experiência</span>
+              <span>Precisão Estrutural</span>
             </div>
           </div>
         </div>

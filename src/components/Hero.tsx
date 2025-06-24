@@ -17,12 +17,12 @@ const Hero = () => {
           {/* Content */}
           <div className="animate-fade-in">
             <h1 className="text-4xl lg:text-6xl font-bold text-secondary-500 mb-6 leading-tight">
-              Soluções em 
+              Excelência em 
               <span className="text-primary block">Estruturas Metálicas</span>
             </h1>
             <p className="text-xl text-accent mb-8 leading-relaxed">
-              Especialistas em coberturas sob medida e esquadrias de alumínio para projetos residenciais e comerciais. 
-              Qualidade, durabilidade e acabamento perfeito em cada obra.
+              Especialistas em estruturas metálicas robustas e coberturas sob medida para projetos residenciais e comerciais. 
+              Engenharia de precisão, materiais premium e execução impecável em cada obra.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -56,8 +56,8 @@ const Hero = () => {
                   <Shield className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-secondary-500">Qualidade Garantida</h3>
-                  <p className="text-sm text-accent">Materiais premium</p>
+                  <h3 className="font-semibold text-secondary-500">Engenharia Certificada</h3>
+                  <p className="text-sm text-accent">Materiais industriais</p>
                 </div>
               </div>
               
@@ -66,8 +66,8 @@ const Hero = () => {
                   <Clock className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-secondary-500">Prazo Cumprido</h3>
-                  <p className="text-sm text-accent">Entrega pontual</p>
+                  <h3 className="font-semibold text-secondary-500">Execução Precisa</h3>
+                  <p className="text-sm text-accent">Cronograma rigoroso</p>
                 </div>
               </div>
               
@@ -76,8 +76,8 @@ const Hero = () => {
                   <Users className="h-6 w-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-secondary-500">Equipe Experiente</h3>
-                  <p className="text-sm text-accent">15+ anos no mercado</p>
+                  <h3 className="font-semibold text-secondary-500">Expertise Técnica</h3>
+                  <p className="text-sm text-accent">Novo ciclo de excelência</p>
                 </div>
               </div>
             </div>
@@ -102,7 +102,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <p className="text-2xl font-bold text-secondary-500">500</p>
-                  <p className="text-sm text-accent">Projetos Realizados</p>
+                  <p className="text-sm text-accent">Estruturas Executadas</p>
                 </div>
               </div>
             </div>

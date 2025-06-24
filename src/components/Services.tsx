@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Building, Home, Wrench, Layers } from "lucide-react";
 
@@ -5,27 +6,27 @@ const Services = () => {
   const services = [
     {
       icon: Building,
-      title: "Estruturas Metálicas",
-      description: "Projetos estruturais robustos para construções residenciais e comerciais com acabamento de qualidade superior.",
-      features: ["Galpões industriais", "Mezaninos", "Estruturas para telhados", "Reformas estruturais"]
+      title: "Estruturas Metálicas Industriais",
+      description: "Projetos estruturais robustos e dimensionados para suportar cargas industriais e comerciais com máxima segurança e durabilidade.",
+      features: ["Galpões industriais", "Mezaninos estruturais", "Estruturas para equipamentos", "Reformas e reforços"]
     },
     {
       icon: Home,
-      title: "Coberturas Sob Medida",
-      description: "Soluções personalizadas em cobertura para proteger e valorizar seu patrimônio com design moderno.",
-      features: ["Telhados metálicos", "Coberturas residenciais", "Pergolados", "Garagens cobertas"]
+      title: "Coberturas Personalizadas",
+      description: "Soluções técnicas em cobertura utilizando materiais de alta performance para proteção e valorização patrimonial.",
+      features: ["Lona tensionada", "Telha termoacústica", "Policarbonato alveolar", "Vidro laminado"]
     },
     {
       icon: Wrench,
-      title: "Esquadrias de Alumínio",
-      description: "Janelas, portas e fachadas em alumínio com isolamento térmico e acústico de alta performance.",
-      features: ["Janelas de correr", "Portas de vidro", "Fachadas comerciais", "Guarda-corpos"]
+      title: "Materiais Premium",
+      description: "Ampla gama de materiais industriais para atender especificações técnicas rigorosas em qualquer tipo de projeto.",
+      features: ["Policarbonato compacto", "Policarbonato trapezoidal", "Laminado industrial", "Vidro temperado"]
     },
     {
       icon: Layers,
       title: "Projetos Completos",
-      description: "Planejamento inteligente, visualização 3D e execução precisa: oferecemos soluções completas em estruturas metálicas para qualquer tipo de projeto.",
-      features: ["Consultoria técnica", "Projeto personalizado", "Execução completa", "Garantia estendida"]
+      description: "Desenvolvimento técnico integral desde o dimensionamento estrutural até a execução final, garantindo precisão em cada etapa.",
+      features: ["Análise estrutural", "Projeto executivo", "Supervisão técnica", "Garantia estendida"]
     }
   ];
 
@@ -34,11 +35,11 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-secondary-500 mb-4">
-            Nossos Serviços
+            Nossas Especialidades
           </h2>
           <p className="text-xl text-accent max-w-3xl mx-auto">
-            Oferecemos soluções completas em estruturas metálicas, coberturas e esquadrias de alumínio 
-            para atender todas as suas necessidades de construção.
+            Oferecemos soluções técnicas completas em estruturas metálicas e coberturas personalizadas, 
+            atendendo projetos residenciais e comerciais com precisão industrial.
           </p>
         </div>
 
@@ -74,11 +75,11 @@ const Services = () => {
         <div className="text-center mt-16">
           <div className="bg-white rounded-2xl shadow-lg p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-secondary-500 mb-4">
-              Precisa de um orçamento personalizado?
+              Precisa de uma solução estrutural sob medida?
             </h3>
             <p className="text-accent mb-6">
-              Nossa equipe está pronta para desenvolver a solução ideal para seu projeto. 
-              Entre em contato e receba um orçamento sem compromisso.
+              Nossa equipe técnica está preparada para desenvolver a solução ideal para seu projeto. 
+              Entre em contato e receba um dimensionamento técnico sem compromisso.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 

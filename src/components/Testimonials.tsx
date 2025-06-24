@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Quote } from "lucide-react";
 
@@ -7,23 +8,23 @@ const Testimonials = () => {
       id: 1,
       name: "Carlos Mendes",
       role: "Proprietário - Residencial",
-      content: "Excelente qualidade! A O.V Soluções entregou minha cobertura metálica no prazo combinado e com acabamento impecável. Recomendo para quem busca qualidade e confiança.",
+      content: "Execução impecável! A O.V Soluções entregou minha estrutura metálica com cobertura no prazo exato e com acabamento de qualidade industrial. Recomendo pela seriedade e competência técnica.",
       rating: 5,
-      project: "Cobertura para área de lazer"
+      project: "Cobertura estrutural para área de lazer"
     },
     {
       id: 2,
       name: "Marina Silva",
       role: "Proprietário – Residencial",
-      content: "Profissionais muito competentes. Fizeram todo o projeto estrutural do nosso galpão e supervisionaram a obra do início ao fim. Resultado superou nossas expectativas.",
+      content: "Profissionais altamente qualificados. Desenvolveram todo o projeto estrutural e supervisionaram a execução com precisão técnica exemplar. Resultado superou nossas expectativas.",
       rating: 5,
-      project: "Cobertura em vidro refletivo para área gourmet"
+      project: "Cobertura em vidro laminado para área gourmet"
     },
     {
       id: 3,
       name: "Roberto Santos",
       role: "Engenheiro - Industrial",
-      content: "Parceria sólida há mais de 3 anos. Sempre entregam projetos de qualidade, no prazo e com preço justo. Equipe técnica muito preparada e atenciosa.",
+      content: "Parceria técnica consolidada há mais de 3 anos. Sempre entregam projetos estruturais de alta qualidade, cumprindo rigorosamente prazos e especificações técnicas. Equipe extremamente competente.",
       rating: 5,
       project: "Múltiplos projetos industriais"
     },
@@ -31,7 +32,7 @@ const Testimonials = () => {
       id: 4,
       name: "Ana Paula",
       role: "Arquiteta",
-      content: "Trabalho em conjunto impecável. A O.V Soluções sempre encontra as melhores soluções técnicas para nossos projetos arquitetônicos. Parceria de confiança.",
+      content: "Colaboração técnica excepcional. A O.V Soluções sempre desenvolve as melhores soluções estruturais para nossos projetos arquitetônicos. Parceria de total confiança técnica.",
       rating: 5,
       project: "Projetos residenciais de alto padrão"
     },
@@ -39,7 +40,7 @@ const Testimonials = () => {
       id: 5,
       name: "João Pereira",
       role: "Proprietário - Residencial",
-      content: "Reformaram toda a estrutura metálica da minha casa. Trabalho limpo, organizado e com excelente acabamento. Cumpriram todos os prazos acordados.",
+      content: "Executaram toda a reforma estrutural da minha propriedade. Trabalho organizado, limpo e com excelente acabamento técnico. Cumpriram rigorosamente o cronograma estabelecido.",
       rating: 5,
       project: "Reforma estrutural completa"
     },
@@ -47,9 +48,9 @@ const Testimonials = () => {
       id: 6,
       name: "Luciana Costa",
       role: "Administradora",
-      content: "Atendimento excepcional desde o primeiro contato. Equipe sempre disponível para esclarecer dúvidas e fazer ajustes. Resultado final perfeito!",
+      content: "Atendimento técnico excepcional desde o primeiro contato. Equipe sempre disponível para esclarecimentos e ajustes no projeto. Execução final com precisão absoluta!",
       rating: 5,
-      project: "Esquadrias de alumínio"
+      project: "Estrutura metálica comercial"
     }
   ];
 
@@ -67,11 +68,11 @@ const Testimonials = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-secondary-500 mb-4">
-            O Que Nossos Clientes Dizem
+            Reconhecimento Técnico
           </h2>
           <p className="text-xl text-accent max-w-3xl mx-auto">
-            A satisfação dos nossos clientes é nossa maior conquista. Veja os depoimentos 
-            de quem já confiou na O.V Soluções para seus projetos.
+            A excelência dos nossos projetos estruturais é reconhecida por clientes que valorizam 
+            precisão técnica e qualidade executiva em estruturas metálicas.
           </p>
         </div>
 
@@ -79,15 +80,15 @@ const Testimonials = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16">
           <div className="text-center">
             <div className="text-4xl font-bold text-primary mb-2">500+</div>
-            <div className="text-accent">Projetos Concluídos</div>
+            <div className="text-accent">Estruturas Executadas</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-primary mb-2">7</div>
-            <div className="text-accent">Anos de Experiência</div>
+            <div className="text-4xl font-bold text-primary mb-2">Novo</div>
+            <div className="text-accent">Ciclo de Excelência</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-primary mb-2">98%</div>
-            <div className="text-accent">Clientes Satisfeitos</div>
+            <div className="text-4xl font-bold text-primary mb-2">100%</div>
+            <div className="text-accent">Precisão Técnica</div>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold text-primary mb-2">24h</div>
@@ -142,7 +143,7 @@ const Testimonials = () => {
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-secondary-500">Empresa Regularizada</h4>
-                  <p className="text-sm text-accent">CNPJ: 30.711.649/0001-81</p>
+                  <p className="text-sm text-accent">CNPJ: 61.431.261/0001-50</p>
                 </div>
               </div>
               
@@ -153,8 +154,8 @@ const Testimonials = () => {
                   </div>
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-secondary-500">Qualidade Certificada</h4>
-                  <p className="text-sm text-accent">Materiais premium</p>
+                  <h4 className="font-semibold text-secondary-500">Qualidade Industrial</h4>
+                  <p className="text-sm text-accent">Materiais certificados</p>
                 </div>
               </div>
               
@@ -165,8 +166,8 @@ const Testimonials = () => {
                   </div>
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-secondary-500">Atendimento Ágil</h4>
-                  <p className="text-sm text-accent">Resposta em 24h</p>
+                  <h4 className="font-semibold text-secondary-500">Suporte Técnico</h4>
+                  <p className="text-sm text-accent">Acompanhamento integral</p>
                 </div>
               </div>
             </div>

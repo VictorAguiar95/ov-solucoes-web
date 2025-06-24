@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -64,15 +65,15 @@ const Gallery = () => {
       title: "Residencial Grand Tolle - Construtora RFM",
       category: "residencial",
       images: grandTolleImages,
-      description: "São 25 toneladas foram 243 máxim-ar de banheiro - 216 Janelas integrada dormitórios - 108 Portas integrada - 108 Porta de correr quatro folhas - 108 Janela duas folhas e 108 portas veneziana ventilada.",
+      description: "Projeto estrutural completo com 25 toneladas de estrutura metálica. Execução de 243 elementos estruturais integrados ao sistema construtivo.",
       isCarousel: true
     },
     {
       id: 3,
-      title: "Cortinas Rolô em Lona Laminado de PVC",
+      title: "Cobertura em Lona Tensionada PVC",
       category: "comercial",
       images: cortinasRoloImages,
-      description: "Cortinas rolô em lona laminado de PVC sobre tecido de poliéster, com aditivos anti‑UV, antifungo e antioxidantes.",
+      description: "Sistema de cobertura em lona laminado de PVC sobre tecido de poliéster, com aditivos anti‑UV, antifungo e antioxidantes.",
       isCarousel: true
     },
     {
@@ -80,15 +81,15 @@ const Gallery = () => {
       title: "Estrutura em Telha Termoacústica",
       category: "comercial",
       images: estruturaComercialImages,
-      description: "Projeto em telha termoacústica branca. Estrutura em aço galvanizado pintado com tinta automotiva",
+      description: "Projeto executivo em telha termoacústica branca. Estrutura em aço galvanizado com tratamento anticorrosivo e pintura industrial.",
       isCarousel: true
     },
     {
       id: 5,
-      title: "Garagem Residencial",
+      title: "Cobertura em Policarbonato Compacto",
       category: "residencial",
       images: garagemResidencialImages,
-      description: "Cobertura em policarbonato compacto fumê. Estrutura 100% em alumínio",
+      description: "Cobertura residencial em policarbonato compacto fumê. Estrutura 100% em alumínio estrutural com fixações técnicas.",
       isCarousel: true
     },
     {
@@ -117,11 +118,11 @@ const Gallery = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-secondary-500 mb-4">
-            Nossos Projetos
+            Projetos Executados
           </h2>
           <p className="text-xl text-accent max-w-3xl mx-auto mb-8">
-            Conheça alguns dos projetos que realizamos com excelência e qualidade. 
-            Cada obra é única e desenvolvida com atenção aos detalhes.
+            Conheça projetos estruturais que demonstram nossa capacidade técnica e precisão executiva. 
+            Cada obra representa nossa expertise em soluções metálicas personalizadas.
           </p>
 
           {/* Filter Buttons */}
@@ -168,7 +169,7 @@ const Gallery = () => {
                 ) : (
                   <>
                     <img
-                      src={project.image}
+                      src={project.images?.[0]}
                       alt={project.title}
                       className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
                     />
@@ -203,11 +204,11 @@ const Gallery = () => {
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-primary-500 to-primary-600 rounded-2xl p-8 text-white">
             <h3 className="text-2xl font-bold mb-4">
-              Seu Projeto Pode Estar Aqui!
+              Sua Estrutura Pode Estar Aqui!
             </h3>
             <p className="text-primary-100 mb-6 max-w-2xl mx-auto">
-              Transforme sua ideia em realidade com nossa expertise em estruturas metálicas. 
-              Solicite um orçamento personalizado e comece seu projeto hoje mesmo.
+              Transforme seu projeto em realidade com nossa expertise técnica em estruturas metálicas. 
+              Solicite um dimensionamento personalizado e inicie seu projeto com precisão industrial.
             </p>
             <a 
               href="https://wa.me/5511969490655?text=Olá! Vi os projetos no site e gostaria de solicitar um orçamento."
@@ -215,7 +216,7 @@ const Gallery = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-gray-100 transition-colors"
             >
-              Solicitar Orçamento Agora
+              Solicitar Orçamento Técnico
             </a>
           </div>
         </div>
