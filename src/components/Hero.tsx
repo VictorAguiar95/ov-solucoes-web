@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Clock, Users } from "lucide-react";
 
@@ -17,7 +16,7 @@ const Hero = () => {
           {/* Content */}
           <div className="animate-fade-in">
             <h1 className="text-4xl lg:text-6xl font-bold text-secondary-500 mb-6 leading-tight">
-              Excelência em 
+              Soluções em 
               <span className="text-primary block">Estruturas Metálicas</span>
             </h1>
             <p className="text-xl text-accent mb-8 leading-relaxed">
